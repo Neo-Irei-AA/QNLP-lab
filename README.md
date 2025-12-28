@@ -9,28 +9,30 @@ The recommended way to reproduce the environment is to use a Python virtual envi
 ```bash
 git clone https://github.com/Neo-Irei-AA/QNLP-lab.git
 cd QNLP-lab
+```
 
 ###2. Create a virtual environment
+```bash
 python3 -m venv .venv
-
+```
 
 Activate it:
 ```bash
 source .venv/bin/activate
-
+```
 
 (Optional) Upgrade pip:
 ```bash
 pip install --upgrade pip
-
+```
 ###3. Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ###4. Verify installation
 ```bash
 python -c "import lambeq; print(lambeq.__version__)"
-
+```
 
 If no error occurs, the environment setup is complete.
 
@@ -41,6 +43,7 @@ If you prefer Conda, you can create a Conda environment and install dependencies
 conda create -n qnlp python=3.10
 conda activate qnlp
 pip install -r requirements.txt
+```
 
 ###Notes
 
@@ -53,7 +56,7 @@ Some libraries (e.g. PyTorch) may require additional configuration depending on 
 For CPU-only environments, you may need:
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cpu
-
+```
 ###Contents
 
 Jupyter notebooks for QNLP experiments
