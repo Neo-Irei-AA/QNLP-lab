@@ -11,7 +11,7 @@ git clone https://github.com/Neo-Irei-AA/QNLP-lab.git
 cd QNLP-lab
 ```
 
-###2. Create a virtual environment
+### 2. Create a virtual environment
 ```bash
 python3 -m venv .venv
 ```
@@ -25,18 +25,18 @@ source .venv/bin/activate
 ```bash
 pip install --upgrade pip
 ```
-###3. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-###4. Verify installation
+### 4. Verify installation
 ```bash
 python -c "import lambeq; print(lambeq.__version__)"
 ```
 
 If no error occurs, the environment setup is complete.
 
-###Alternative: Using Conda
+### Alternative: Using Conda
 
 If you prefer Conda, you can create a Conda environment and install dependencies via pip:
 ```bash
@@ -45,7 +45,7 @@ conda activate qnlp
 pip install -r requirements.txt
 ```
 
-###Notes
+## Notes
 
 The experiments were developed mainly on Ubuntu.
 
@@ -57,7 +57,7 @@ For CPU-only environments, you may need:
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 ```
-###Contents
+## Contents
 
 Jupyter notebooks for QNLP experiments
 
@@ -67,7 +67,7 @@ Experimental data and results
 
 Supporting scripts and diagrams
 
-###License
+## License
 
 This repository is intended for academic and research purposes.
 Please contact the author if you plan to reuse or extend the code.
