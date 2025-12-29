@@ -40,8 +40,8 @@ If no error occurs, the environment setup is complete.
 
 If you prefer Conda, you can create a Conda environment and install dependencies via pip:
 ```bash
-conda create -n qnlp python=3.10
-conda activate qnlp
+conda create -n lambeq-env python=3.10
+conda activate lambeq-env
 pip install -r requirements.txt
 ```
 
