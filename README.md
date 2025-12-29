@@ -13,7 +13,7 @@ cd QNLP-lab
 
 ### 2. Create a virtual environment
 ```bash
-python3 -m venv .venv
+python3 -m lambeq-env .venv
 ```
 
 Activate it:
