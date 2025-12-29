@@ -13,12 +13,12 @@ cd QNLP-lab
 
 ### 2. Create a virtual environment
 ```bash
-python3 -m venv lambeq-env
+conda create -n lambeq-env python=3.10
 ```
 
 Activate it:
 ```bash
-source lambeq-env/bin/activate
+conda activate lambeq-env
 ```
 
 (Optional) Upgrade pip:
