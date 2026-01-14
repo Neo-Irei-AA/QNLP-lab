@@ -1,0 +1,30 @@
+1 Woman prepares tasty dinner.
+1 Woman cooks tasty sauce.
+0 Skillful woman prepares software.
+1 Skillful man prepares dinner.
+1 Skillful woman cooks sauce.
+0 Woman runs useful program.
+0 Skillful person runs software.
+0 Skillful person prepares program.
+1 Man prepares sauce.
+1 Person cooks tasty sauce.
+1 Man cooks sauce.
+0 Man prepares program.
+0 Skillful person prepares software.
+1 Woman bakes meal.
+1 Skillful man bakes sauce.
+0 Man prepares useful software.
+0 Woman debugs program.
+0 Skillful woman runs application.
+0 Man debugs software.
+0 Skillful woman debugs application.
+0 Person debugs software.
+1 Person bakes meal.
+1 Skillful woman bakes dinner.
+1 Skillful woman cooks dinner.
+0 Woman runs useful software.
+1 Man cooks meal.
+0 Person debugs program.
+1 Woman bakes sauce.
+0 Skillful woman debugs software.
+1 Woman prepares meal.
